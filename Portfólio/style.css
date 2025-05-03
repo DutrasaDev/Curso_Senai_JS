@@ -87,3 +87,25 @@ body{
 .redes i:hover{
     color: blue;
 }
+
+.sobremim h1{
+    text-align: center;
+}
+
+.sobremim p{
+    font-size: 18px;
+    padding: 10px;
+}
+
+.divbotoes{
+    text-align: center;
+    margin: 20px;
+}
+
+.botoes{
+    margin: 10px;
+    width: 120px;
+    height: 60px;
+    border: 1px solid;
+    border-radius: 15%;
+}
