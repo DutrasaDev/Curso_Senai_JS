@@ -1,0 +1,229 @@
+    /*A estrutura do css é composta: pela identificação do elemento seguido de chaves, e por fim dentro das chaves você escolhe o atributo que deseja modificar seguido do parâmetro. Ex: 
+    p{font-size:16px;
+    color: red;
+    Sempre eu preciso terminar os comandos com ; *
+    /*Medidas Absolutas - ou seja fixas 
+        px - pixels
+        cm - centímetros
+        mm - milímetros
+        Medidas Relativas - ou seja que se ajustam
+        rem - Se ajusta de acordo com o tamanho da fonte html
+        % - relativo ao tamanho do elemento pai / tela 
+        
+        */
+
+.praias{
+/*Alterando a Largura da Imagem*/
+    width: 50%;
+/*Alterando a Altura da Imagem*/
+    height: 50%;
+}
+tr,td{
+/*Definindo tipo e espessura da borda*/
+    border: 1px double;
+/*Definindo a cor da borda das linhas e colunas da tabela*/
+    border-color: black;
+/*Ajustando largura */
+width: 40%;
+}
+td{
+/*Ajustando largura*/
+    width: 250px;
+}
+.linha1{
+    background-color: orange; /*Troca a cor de fundo*/
+    text-align: center; /*Alinha no centro*/
+    color: black;/*Troca a cor da linha*/
+    font-weight: bold;
+}
+
+p{
+    font-size: 20px;
+}
+
+li{
+    font-size: 17px;
+}
+
+body{
+   /* background-image: linear-gradient(to bottom, white, gray, white); Criamos um gradiente para a página web. Formas de aplicação right, left, top e bottom*/
+   background-color: #dcdcdc;
+    font-family: Georgia, 'Times New Roman', Times, serif; /*Define a fonte do texto*/
+    line-height: 1.6; /*Define o espaçamento entre as linhas*/
+    padding: 20px; /*Espaçamento interno nas bordas*/
+}
+
+/*Estilos do título principal da página*/
+
+h3,h4{
+ text-align: center; /*Centraliza o texto*/
+ color: orange; /*Aplica a cor laranja*/
+ font-size: 3rem; /*Altera o tamanho*/
+ margin-top: 30px; /*Espaço superior entre as seções*/
+}
+/*Estilo para todas as imagens*/
+img{
+    width: 100%; /*Ocupa 100% da largura do elemento em que ela está*/
+    max-width: 600px;
+    height: auto; /*Manter a proporção*/
+    border-radius: 12px; /*Bordas arredondadas*/
+    margin: 10px 0px; /*Espaçamento acima e abaixo entre a  img e o conteúdo*/
+}
+/*Estilizando os links*/
+a:hover{
+    text-decoration: underline; /*Adiciona um traço abaixo do link quando o mouse estiver sobre ele*/
+}
+/*Estilizar todas as listas (ol, li) com:
+cor de fundo, espaço interno, bordas arredondadas*/
+li{
+    width: auto;
+    max-width: fit-content;
+    background-color: rgb(255,174,105);
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 8px;
+}
+
+ol{
+    width: auto;
+    max-width: fit-content;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 30px;
+    background-color: rgb(204,169,221)
+}
+
+ul{
+    border: 1px solid;
+    border-radius: 50px;
+    background-color: rgb(204,169,221);
+    width: auto;
+    max-width: fit-content;
+}
+
+/*Estilo da Tabela*/
+table{
+    width: 100%; /*Ocupa 100% da largura do elemento ao qual ela está inserida*/
+    border-collapse: collapse; /*Junta as bordas da tabela*/
+    margin-top: 20px; /*Espaço acima da tabela*/
+}
+table td{
+    border: 1px solid #ddd; /*Borda de 1 pixel de largura, linha contínua e cor cinza*/
+    /*espaçamento interno, alinhar o texto no centro e atribuir uma cor de fundo*/
+    padding: 12px;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.card{
+    margin: 50px;
+    overflow: hidden; /*Ocultar o que passar dos limites do card*/
+    vertical-align: top; /*Alinha os cards pelo topo*/
+    transition: transform 0.3s ease; /*Animação na interação com os cards */
+}
+
+.card:hover{
+    transform: scale(1.05); /*Aumento em 5% o tamanho do card*/
+}
+/*Estilizar os títulos do card*/
+.card-title{
+    font-size: 1.3rem;
+    color: #00695c;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+/*Estilizando o corpo do card */
+.card-body{
+    width: auto;
+    padding: 2px;
+    font-size: 1.5rem;
+}
+
+#cards{
+    display: flex;
+}
+
+#divnazare{
+    margin-left: 547px;
+    background-color: #c8c6c4;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+p{
+    font-size: 17px;
+    text-align: justify;
+}
+
+/*Ajustando a imagem*/
+.card-img{
+    width: 50%;
+    height: 40%;
+}
+
+#divparaiso{
+    background-color: #c8c6c4;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+#divkleftiko{
+    width: auto;
+    max-width: fit-content;
+    background-color: #c8c6c4;
+    border-radius: 30px;
+    padding: 50px;
+}
+
+.btn-primary{
+    background-color: #009688; /*cor de fundo*/
+    color: white; /*Cor da letra*/
+    padding: 10px 16px; /*Espaço interno na horizontal*/
+    text-align: center; /*Centralizar o texto*/
+    border-radius: 8px; /*Arredondar as bordas*/
+    margin-left: 60px; /*Espaço externo entre as bordas do botão e o limite do card*/
+    transition: 0.5s ease;
+}
+
+.btn-primary:hover{
+    background-color: #00b8a5; /*Mudando a cor do botão ao deixar o cursor em cima do elemento*/
+    text-decoration: none;
+    box-shadow: 2px 2px 5px black; /*Retirando traçado do link*/
+}
+/*Responsividade*/
+/*Telas pequenas*/
+@media(max-width: 768px){
+    .card{
+        width: 90%;
+        margin: 20px auto;
+    }
+}
+
+#menu{
+    background-color: transparent;
+    border: transparent;
+    list-style-type: none;
+    display: flex;
+    margin: auto;
+}
+
+.menupraias{
+    transition: 0.5s ease;
+}
+
+.menupraias:hover{
+    transition: 0.5s ease;
+    transform: scale(1.1);
+}
+
+
+#navmenu a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+}
+
+#navmenu a:hover{
+    color: rgb(0, 60, 255);
+}

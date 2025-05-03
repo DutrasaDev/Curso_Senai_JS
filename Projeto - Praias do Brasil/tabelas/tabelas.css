@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background: lightblue;
+
+}
+
+#tabela{
+    margin: auto;
+    padding: 20px;
+    border: solid 2px;
+}
+
+.linhas{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.colunas{
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    transition: color 1s ease;
+    transition: text-decoration 1s ease; 
+}
+
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.card{
+    border: solid 1px;
+    margin: auto;
+}

@@ -1,0 +1,286 @@
+/*A estrutura do css é composta: Pela identificação do elemento seguido de chaves, e por fim dentro das chaves você escolhe o atributo que deseja modificar seguido do parâmetro. Ex: p{font-fize:16px}*/
+
+body{
+    background-color: lightgrey;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#sec1{
+    background-color: rgb(199, 226, 226);
+}
+
+img{
+    width: 30%;
+    height: 30%;
+    box-align: center;
+    border: groove 7px gray;
+    border-radius: 30px;
+}
+
+.comeco{
+    text-align: center;
+    margin: 50px;
+    border: 7px double black;
+}
+
+.titulos{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 15px blue;
+}
+
+.atividades1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 1px 1px 15px blue;
+    text-align: left;
+}
+
+.rest1 {
+    font-family: 'Courier New', Courier, monospace;
+    list-style-position: inside;
+    text-shadow: 1px 1px 15px blue;
+    list-style-type: none; /* Remove o estilo de lista padrão */
+    counter-increment: item; /* Incrementa o contador */
+    text-align: left;
+}
+
+.rest1::before {
+    font-weight: bold;
+    content: counter(item) "- "; /* Adiciona o número seguido de hífen */
+}
+
+.link{
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: color 0.2s ease;
+}
+
+a:hover{
+    color: rgb(0, 38, 255);
+    text-decoration: underline;
+}
+
+.apelo {
+    text-align: justify;
+    text-shadow: 1px 1px 15px blue;
+    padding: 15px;
+}
+
+.rest2 {
+    font-family: 'Courier New', Courier, monospace;
+    list-style-position: inside;
+    text-shadow: 1px 1px 15px orange;
+    list-style-type: none; /* Remove o estilo de lista padrão */
+    counter-increment: item; /* Incrementa o contador */
+    text-align: left;
+}
+
+#secsatu{
+    background-color: bisque;
+}
+
+#apelo2{
+    text-align: justify;
+    text-shadow: 1px 1px 15px orange;
+    padding: 15px;
+}
+
+.atividades2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 1px 1px 15px orange;
+    text-align: left;
+}
+
+#atirecomendados2{
+    text-shadow: 1px 1px 15px orange;
+}
+
+#recomendados2{
+    text-shadow: 1px 1px 15px orange;
+}
+
+#titulo2{
+    text-shadow: 1px 1px 15px orange;
+}
+
+.rest2{
+    text-shadow: 1px 1px 15px orange;
+}
+
+#secgarapua{
+    background-color: palegreen;
+}
+
+#titulo3{
+    text-shadow: 1px 1px 15px gold ;
+}
+
+#atirecomendados3{
+    text-shadow: 1px 1px 15px gold;
+}
+
+.atividades3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 1px 1px 15px gold;
+    text-align: left;
+}
+
+#recomendados3{
+    text-shadow: 1px 1px 15px gold;
+}
+
+.rest3 {
+    font-family: 'Courier New', Courier, monospace;
+    list-style-position: inside;
+    text-shadow: 1px 1px 15px gold;
+    list-style-type: none; /* Remove o estilo de lista padrão */
+    counter-increment: item; /* Incrementa o contador */
+    text-align: left;
+}
+
+.rest3::before {
+    font-weight: bold;
+    content: counter(item) "- "; /* Adiciona o número seguido de hífen */
+}
+
+#apelo3{
+    text-shadow: 1px 1px 15px gold;
+}
+
+#secquebrado{
+    background-color: plum;
+}
+
+#titulo4{
+    text-shadow: 1px 1px 15px darkmagenta ;
+}
+
+#atirecomendados4{
+    text-shadow: 1px 1px 15px darkmagenta;
+}
+
+.atividades4{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 1px 1px 15px darkmagenta;
+    text-align: left;
+}
+
+#recomendados4{
+    text-shadow: 1px 1px 15px darkmagenta;
+}
+
+.rest4{
+    font-family: 'Courier New', Courier, monospace;
+    list-style-position: inside;
+    text-shadow: 1px 1px 15px darkmagenta;
+    list-style-type: none; /* Remove o estilo de lista padrão */
+    counter-increment: item; /* Incrementa o contador */
+    text-align: left;
+}
+
+.rest4::before {
+    font-weight: bold;
+    content: counter(item) "- "; /* Adiciona o número seguido de hífen */
+}
+
+#apelo4{
+    text-shadow: 1px 1px 15px darkmagenta;
+}
+
+#secespelho{
+    background-color: aquamarine;
+}
+
+#titulo5{
+    text-shadow: 1px 1px 15px lawngreen;
+}
+
+#atirecomendados5{
+    text-shadow: 1px 1px 15px lawngreen;
+}
+
+.atividades5{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 1px 1px 15px lawngreen;
+    text-align: left;
+}
+
+#recomendados5{
+    text-shadow: 1px 1px 15px lawngreen;
+}
+
+.rest5{
+    font-family: 'Courier New', Courier, monospace;
+    list-style-position: inside;
+    text-shadow: 1px 1px 15px lawngreen;
+    list-style-type: none; /* Remove o estilo de lista padrão */
+    counter-increment: item; /* Incrementa o contador */
+    text-align: left;
+}
+
+.rest5::before {
+    font-weight: bold;
+    content: counter(item) "- "; /* Adiciona o número seguido de hífen */
+}
+
+#apelo5{
+    text-shadow: 1px 1px 15px lawngreen;
+}
+
+#divferias{
+    padding: 30px;
+    text-align: left;
+    text-shadow: 1px 1px 15px lawngreen
+}
+
+#imgmaresias{
+    transition: 0.3s ease;
+}
+#imgmaresias:hover{
+    box-shadow: 1px 1px 15px black;
+}
+
+#imgsatu{
+    transition: 0.3s ease;
+}
+#imgsatu:hover{
+    box-shadow: 1px 1px 15px black;
+}
+
+#imgquebrado{
+    transition: 0.3s ease;
+}
+#imgquebrado:hover{
+    box-shadow: 1px 1px 15px black;
+}
+
+#imggarapua{
+    transition: 0.3s ease;
+}
+#imggarapua:hover{
+    box-shadow: 1px 1px 15px black;
+}
+
+#imgespelho{
+    transition: 0.3s ease;
+}
+#imgespelho:hover{
+    box-shadow: 1px 1px 15px black;
+}
