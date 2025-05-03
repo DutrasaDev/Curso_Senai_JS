@@ -1,0 +1,20 @@
+.iconmenu{
+    display: flex; /*Alinhar os itens horizontalmente*/
+    justify-content: space-around; /*Distribuir o espaçamento de forma linear (igual) entre eles*/
+    background: linear-gradient(to right, rgb(124, 207, 248), rgb(2, 115, 201)); /*Cor de fundo do menu com degradê*/
+    padding: 15px;
+    position: fixed; /*Fixa o menu na sua posição original, no caso horizontal*/
+    width: 100%;
+    z-index: 1000; /*Garante a sobreposição do menu em relação aos outros itens da tela*/
+}
+
+.iconmenu a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    transition: 0.5s ease;
+}
+
+.iconmenu a:hover{
+    transform: scale(1.03); /*Aumenta o tamanho do elemento no nosso caso o link em 10%*/
+}

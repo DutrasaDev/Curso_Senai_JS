@@ -1,0 +1,26 @@
+.menuvertical{
+    width: 200px; /*Largura do Menu*/
+    height: 100vh; /*Altura igual à altura total da janela de visualização*/
+    position: fixed; /*Menu fixo na lateral da tela*/
+    background-color: black; /*Cor de fundo do menu*/
+    padding-top: 40px; /*Distância superior do conteúdo*/
+    margin-top: -8px; /*Distância superior entre o menu e o topo da página*/
+    margin-left: -8px; /*Distância à esquerda entre o menu e a borda esquerda da página*/
+}
+
+.menuvertical ul{
+    list-style: none; /*Remove os ícones de ponto dos itens da lista*/
+    padding: 0; /*Remove o espaço interno padrão dos elementos da lista*/
+}
+
+.menuvertical a{
+    display: block; /* Faz com que o link ocupe toda a largura disponível, como se fosse um bloco */
+    color: white; /*Cor do texto*/
+    padding: 15px; /*Espaço interno ao redor do texto*/
+    text-decoration: none; /*Remove o sublinhado do link*/
+    transition: 0.5s ease; /*Se existe um evento hover para mudança de cor de fundo, ele suavizará essa mudança, deixando gradativa a intesificação da cor, neste caso deixamos a mudança definida em 0.5 segundos*/
+}
+
+.menuvertical a:hover{
+    background-color: #436592;
+}
