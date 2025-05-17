@@ -145,6 +145,53 @@ body{
     justify-content: end;
 }
 
-.checkbox{
+#checkbox{
     display: none;
+}
+
+label{
+    margin-top: 25px;;
+}
+
+.iconemenu {
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+}
+
+/* Esconde o menu por padrão */
+.navmenu {
+    display: none;
+    position: absolute;
+    background-color: #d8ffd6;
+    border: 1px solid #aaa;
+    margin-right: 40px;
+    margin-top: 25px;
+}
+
+.navmenu ul {
+    list-style: none;
+    display: flex;
+}
+
+.navmenu li{
+    padding-right: 30px;
+}
+
+.navmenu li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.2s ease;
+}
+
+.navmenu li a:hover{
+    color: blue;
+}
+
+/* Quando o checkbox estiver marcado, mostra o menu */
+#checkbox:checked ~ .navmenu {
+    display: block;
+
 }
